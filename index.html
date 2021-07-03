@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Anuncios</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div>
+      <h1 id="titulo">Cadastro de Anuncios</h1>
+      <p id="subtitulo"><strong>Realize o cadastro de anúncio nos campos abaixo</strong></p>
+    </div>  
+    <form>
+      <fieldset class="grupo">
+        <div class="campo">
+          <label for="nome"><strong>Nome do Anúncio</strong></label>
+          <input id="nome" type="text" required>
+        </div>
+
+        <div class="campo">
+          <label for="cliente"><strong>Cliente</strong></label>
+          <input id="cliente" type="text" required>
+        </div>
+
+        <div class="campo">
+          <label for="datadeinicio"><strong>Data de Início</strong></label>
+          <input id="datadeinicio" type="date" required>
+        </div>
+
+        <div class="campo">
+          <label for="datadetermino"><strong>Data de Término</strong></label>
+          <input id="datadetermino" type="date" required>
+        </div>
+
+        <div class="campo">
+          <label for="investimentopordia"><strong>Investimento por dia</strong></label>
+          <input id="investimentopordia" type="number" required>
+        </div>
+
+        <div class="botao">
+          <button id="botaoEnviar">Enviar</button>
+        </div>
+        
+      </fieldset>
+    </form>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>

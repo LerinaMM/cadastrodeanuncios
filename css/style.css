@@ -1,0 +1,61 @@
+
+*{
+  margin:0;
+  padding:0;
+}
+
+#titulo{
+  font-family: open sans,sans-serif;
+  background-color:#F0F8FF;
+  color:#380861;
+  margin-left:0%;
+  padding: 0%;
+  margin-bottom:1em;
+  }
+
+#subtitulo{
+  font-family: open sans,sans-serif;
+  color:#380861;
+  margin-left: 0%;
+  margin-bottom: 1em;
+}
+
+fieldset{
+  border:0;
+}
+
+body{
+  text-align:center;
+  font-family: open sans,sans-serif;
+  background-color:#F0F8FF;
+  color:#59429d;
+  font-size:1em;
+  margin-left: -5%;
+  margin-top:2%;
+  justify-content: center;
+}
+
+input, select, textarea, button{
+  border-radius: 5 px;
+}
+
+.campo{
+  margin-bottom: 1em;
+}
+
+.campo label{
+  margin-bottom: 0.2em;
+  color:#59429d;
+  display: block;
+}
+
+fieldset.grupo.campo{
+  float:left;
+  margin-right: 1em;
+}
+
+.campo input [type="text"], .campo input[type="number"], campo[type="date"]{
+  padding: 0.2em;
+  border: 1px solid #59429d;
+  box-shadow: 2px 2px 2px rgb(0 0 0 0.2)
+}

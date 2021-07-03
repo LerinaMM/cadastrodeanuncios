@@ -1,0 +1,2 @@
+#cadastro de anúncios
+você deve realizar o cadastro completando os campos de nome de anuncio, nome do cliente, após, inserir a data de inicio e data de termino do anuncio e como ultima etapa o usuário deverá determinar o valor de investimento (em reais) que será realizado por dia para esse anuncio. Após o preenchimento desses campos, clicar no botão "enviar"
